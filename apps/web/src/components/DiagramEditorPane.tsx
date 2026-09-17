@@ -40,7 +40,7 @@ import {
   KeyRound,
   Layers3,
   ListTree,
-  Share2,
+  Link2,
   LockKeyhole,
   LoaderCircle,
   MonitorSmartphone,
@@ -2790,7 +2790,7 @@ export const DiagramEditorPane = ({
                 </DropdownMenuItem>
                 {!readOnly && (
                   <DropdownMenuItem disabled={isLocalMemoId(memo.id)} onClick={() => setShareOpen(true)}>
-                    <Share2 className="h-4 w-4 text-slate-500" />
+                    <Link2 className="h-4 w-4 text-slate-500" />
                     {t(isLocalMemoId(memo.id) ? "sharing.afterSync" : "sharing.action")}
                   </DropdownMenuItem>
                 )}

@@ -319,7 +319,6 @@ struct MemoShare: Codable, Equatable, Sendable {
     var token: String
     var createdAt: String
     var updatedAt: String
-    var passwordProtected: Bool?
 }
 
 struct InstanceUser: Codable, Equatable, Sendable, Identifiable {

@@ -6,9 +6,6 @@ export type MemoShare = {
   token: string;
   createdAt: string;
   updatedAt: string;
-  passwordProtected: boolean;
-  /** Plaintext is returned only immediately after the owner enables or regenerates a password. */
-  password?: string;
 };
 
 export type PublicMemoShare = {
